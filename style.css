@@ -1,16 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins";
+  font-family: Verdana, sans-serif;
 }
 * {
   box-sizing: border-box;
-}
-/* ul {
-  list-style-type: none;
-} */
-body {
-  font-family: Verdana, sans-serif;
 }
 .container {
   max-width: 50%;
@@ -32,8 +26,7 @@ body {
   flex-direction: row;
   background-image: linear-gradient(to right, #dbeef2, #f6eeeb);
   border-radius: 80px;
-  height: 150px;
-  /* width: 90%; */
+  height: 145px;
   align-items: center;
   justify-content: center;
 }
@@ -82,7 +75,6 @@ body {
 .car {
   margin: 60px 20px 10px 30px;
   display: flex;
-  height: 60px;
   flex-direction: row;
   justify-content: space-between;
   background-color: #f0eeee;
@@ -97,7 +89,6 @@ body {
 .passen {
   margin: 10px 20px 30px 30px;
   display: flex;
-  height: 60px;
   flex-direction: row;
   justify-content: space-between;
   background-color: #f0eeee;
@@ -202,7 +193,7 @@ body {
 /* progress-circle */
 .progress-circle {
   font-size: 20px;
-  margin: 15px;
+  margin: 20px;
   position: relative; /* so that children can be absolutely positioned */
   padding: 0;
   width: 5em;
