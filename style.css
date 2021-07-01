@@ -52,7 +52,7 @@ body {
 }
 
 .flx-cont {
-  padding: 5px 10px;
+  padding: 5px 20px;
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -147,7 +147,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  /* padding: 10px 0px; */
 }
 .days div {
   width: 14.28%;
@@ -198,7 +197,6 @@ body {
   padding: 0;
   width: 5em;
   height: 5em;
-  /*background-color: #F2E9E1;*/
   border-radius: 50%;
   line-height: 5em;
 }
