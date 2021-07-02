@@ -167,7 +167,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.pre_month {
+.pre_month,
+.post_month {
   color: rgb(201, 197, 197);
 }
 
